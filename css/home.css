@@ -1143,3 +1143,62 @@ section .n2_container .n2_container_items:hover {
         font-size: 14px;
     }
 }
+@media only screen and (max-width: 414px){
+    header .n2_logo {
+        font-size: 15px;
+    }
+
+    header {
+        width: 100%;
+        padding: 15px 40px;
+        height: 350px;
+    }
+    header:before {
+        height: 350px;
+    }
+    section {
+        padding: 20px 5%;
+    }
+
+    section .n2_container {
+        grid-template-columns: 350px;
+        gap: 20px;
+        width: 350px;
+        margin-bottom: 40px;
+        justify-content: center;
+    }
+
+    section .n2_container .n2_container_items {
+        width: 350px;
+        height: 200px;
+    }
+
+    section .n2_container .n2_container_items h2 {
+        font-size: 25px;
+    }
+    .n2_qc h1 {
+        font-size: 20px;
+        margin-bottom: 0px;
+    }
+
+    .n2_qc h2 {
+        font-size: 25px;
+        color: #ff0e0e;
+        margin-top: 20px;
+    }
+
+    .splide__slide img {
+        width: 73px;
+        height: 73px;
+    }
+    .n2_cactinhtp .n2_cactinhtp_items h4 {
+        margin: 10px;
+        font-size: 12px;
+    }
+    .n2_footer_items h4 {
+        font-size: 12px;
+    }
+
+    .n2_footer .n2_footer_items li {
+        font-size: 9px;
+    }

@@ -1161,12 +1161,14 @@ section .n2_container .n2_container_items:hover {
     }
 
     section .n2_container {
-        grid-template-columns: 350px;
+        grid-template-columns: 370px;
         gap: 20px;
-        width: 350px;
+        width: 400px;
         margin-bottom: 40px;
         justify-content: center;
+        align-items: center;
     }
+
 
     section .n2_container .n2_container_items {
         width: 350px;

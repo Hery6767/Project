@@ -320,13 +320,13 @@ header .n2_image img {
 @media only screen and (max-width: 576px) {
     header {
         padding: 15px 60px;
-        height: 150vh;
+        height: 180vh;
     } 
     header:before {
-        height: 150vh;
+        height: 180vh;
     }  
     .n2_container_contact{
-        top:70%;
+        top:80%;
         left: 50%;
         grid-template-columns: 100%;
         gap:100px
@@ -361,10 +361,14 @@ header .n2_image img {
 @media only screen and (max-width: 476px) {
     header {
         padding: 15px 30px;
-        height: 150vh;
+        height: 200vh;
     } 
+        } 
+    header:before {
+        height: 200vh;
+    }  
     .n2_container_contact{
-        top:70%;
+        top:90%;
         left: 50%;
         grid-template-columns: 100%;
         gap:100px

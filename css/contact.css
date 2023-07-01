@@ -366,7 +366,7 @@ header .n2_image img {
         height: 200vh;
     }  
     .n2_container_contact{
-        top:50%;
+        top: 90%;
         left: 50%;
         grid-template-columns: 100%;
         gap:100px

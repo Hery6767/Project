@@ -575,17 +575,10 @@ section  h1 {
         top: 30%;
         left: 50%;
     }
-    .n2_button {
-    font-size: 14px;
-    padding: 9px 5px;
-    width: 100px;
-    margin-top: 10px;
-}
 .custom-select {
-    position: relative;
-    width: 110px;
-    margin: 10px;
-    font-size: 14px;
+    width: 120px;
+    margin: 7px;
+    font-size: 12px;
 }
     .n2_center h1 {
         font-size: 60px;
@@ -600,15 +593,10 @@ section  h1 {
         font-size: 22px;
     }
     .n2_button {
-        font-size: 14px;
+        font-size: 12px;
         padding: 9px 5px;
-        width: 250px;
+        width: 100px;
         margin-top: 10px;
-    }
-    .custom-select {
-        position: relative;
-        width: 200px;
-        margin: 10px;
     }
     
     .n2_container_title h1 {

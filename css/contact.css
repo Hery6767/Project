@@ -240,6 +240,7 @@ header .n2_image img {
     }
 
     header .n2_navigation.active .n2_navigation_items {
+        z-index: 777;
         background: #fff;
         width: 500px;
         max-width: 500px;
@@ -319,13 +320,13 @@ header .n2_image img {
 @media only screen and (max-width: 576px) {
     header {
         padding: 15px 60px;
-        height: 180vh;
+        height: 150vh;
     } 
     header:before {
-        height: 180vh;
+        height: 150vh;
     }  
     .n2_container_contact{
-        top: 80%;
+        top:70%;
         left: 50%;
         grid-template-columns: 100%;
         gap:100px
@@ -360,13 +361,10 @@ header .n2_image img {
 @media only screen and (max-width: 476px) {
     header {
         padding: 15px 30px;
-        height: 200vh;
+        height: 150vh;
     } 
-     header:before {
-        height: 200vh;
-    }  
     .n2_container_contact{
-        top: 90%;
+        top:70%;
         left: 50%;
         grid-template-columns: 100%;
         gap:100px
@@ -398,3 +396,4 @@ header .n2_image img {
         height: 300px;
     }
 }
+

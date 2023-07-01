@@ -575,7 +575,18 @@ section  h1 {
         top: 30%;
         left: 50%;
     }
-
+    .n2_button {
+    font-size: 14px;
+    padding: 9px 5px;
+    width: 100px;
+    margin-top: 10px;
+}
+.custom-select {
+    position: relative;
+    width: 110px;
+    margin: 10px;
+    font-size: 14px;
+}
     .n2_center h1 {
         font-size: 60px;
     }
@@ -583,7 +594,7 @@ section  h1 {
         font-size: 30px;
     }
     .n2_search{
-        height: 50px;
+        height: 60px;
     }
     section h1{
         font-size: 22px;

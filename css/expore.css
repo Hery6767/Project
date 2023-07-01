@@ -714,11 +714,15 @@ h4,
     header:before {
         height: 350px;
     }
+    .pagination a {
+    left: 7%;
+    font-size: 13px;
+  }
     .n2_footer_items h4 {
         font-size: 10px;
     }
 
     .n2_footer .n2_footer_items li {
-        font-size: 9px;
+        font-size: 7px;
     }
 }
